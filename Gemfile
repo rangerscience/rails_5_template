@@ -21,9 +21,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 
 gem "slim-rails"
-gem 'webpacker'
 
 gem 'devise'
+gem 'cancancan'
 
 group :development, :test do
   gem 'pry'
