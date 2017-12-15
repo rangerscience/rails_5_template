@@ -23,6 +23,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem "slim-rails"
 gem 'webpacker'
 
+gem 'devise'
+
 group :development, :test do
   gem 'pry'
 
