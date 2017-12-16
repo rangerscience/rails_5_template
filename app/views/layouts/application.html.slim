@@ -4,7 +4,8 @@ html
     meta content=("text/html; charset=UTF-8") http-equiv="Content-Type" /
     title Cryptotax
     = csrf_meta_tags
-    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
     p.notice= notice
