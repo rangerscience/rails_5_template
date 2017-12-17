@@ -30,6 +30,11 @@ group :development, :test do
 
   gem 'capybara', '~> 2.13.0'
   gem 'selenium-webdriver'
+
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+
+  gem 'rspec-rails', '~> 3.6'
 end
 
 group :development do
